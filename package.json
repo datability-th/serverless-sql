@@ -1,0 +1,26 @@
+{
+  "name": "aws-node-typescript-rest-api-with-dynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "lint": "tslint '*.ts'",
+    "deploy-index": "npx serverless deploy -f index && rm -rf src/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "serverless": "^2.48.1",
+    "tslint": "^5.5.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^3"
+  },
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "uuid": "^3.1.0"
+  }
+}

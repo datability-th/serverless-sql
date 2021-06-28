@@ -16,4 +16,7 @@ yarn install
 # After installed
 npx serverless config credentials --provider aws --key YOUR_API_KEY_HERE --secret YOUR_SECRET_KEY_HERE
 npx serverless deploy
-```# serverless-sql
+
+# Subsequence deployment
+yarn run deploy-index
+```
